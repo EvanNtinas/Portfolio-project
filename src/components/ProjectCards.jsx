@@ -1,5 +1,5 @@
 const ProjectCards = (props) => {
-  const { image, title, description, linkText, linkUrl, liveText } = props;
+  const { image, title, description, linkText, linkUrl, liveUrl } = props;
 
   return (
     <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden'>
@@ -21,14 +21,16 @@ const ProjectCards = (props) => {
         >
           {linkText}
         </a>
-        {/* <a
-          href={linkUrl}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800'
-        >
-          {liveText}
-        </a> */}
+        {liveUrl && (
+          <a
+            href={liveUrl}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='inline-flex items-center ml-4 px-3 pt-2 pb-1 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800'
+          >
+            Live
+          </a>
+        )}
       </div>
     </div>
   );

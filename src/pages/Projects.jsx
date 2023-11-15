@@ -18,7 +18,7 @@ const Projects = () => {
                 description={project.description}
                 linkText={project.linkText}
                 linkUrl={project.linkUrl}
-                // liveText={project.liveText}
+                liveUrl={project.liveUrl}
               />
             </div>
           ))}

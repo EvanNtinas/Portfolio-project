@@ -2,6 +2,14 @@ import { FaGithub } from "react-icons/fa";
 
 const projectData = [
   {
+    image: require("../assets/v.png"),
+    title: "Portfolio Project",
+    description: "Portfolio site using React and Tailiwind CSS",
+    linkText: <FaGithub />,
+    linkUrl: " https://github.com/EvanNtinas/Portfolio-project",
+    liveUrl: "https://evanntinas-portofolio-project.vercel.app/",
+  },
+  {
     image: require("../assets/weather.jpg"),
     title: "Weather App",
     description: "Weather App project",
@@ -28,7 +36,6 @@ const projectData = [
     description: "Simple React Project",
     linkText: <FaGithub />,
     linkUrl: "https://github.com/EvanNtinas/Investment-Calculator",
-    // liveText: "Live",
   },
 ];
 
