@@ -50,7 +50,7 @@ const AboutMe = () => {
             </div>
           </div>
           <a
-            href='/resume.pdf'
+            href='/Resume.pdf'
             download='Evangelos_Ntinas_Resume.pdf'
             className='bg-gradient-to-l from-teal-500 to-teal-800 text-white px-4 py-2 rounded-md mt-4 inline-block hover:text-customyellow'
           >
