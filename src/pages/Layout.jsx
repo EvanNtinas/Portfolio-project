@@ -9,8 +9,7 @@ const Layout = () => {
     <>
       <div className={`${darkMode ? "dark-mode" : ""}`}>
         <Header />
-        {/* className='flex-grow w-full p-4 md:p-8' */}
-        <main className=''>
+        <main>
           <Outlet />
         </main>
       </div>

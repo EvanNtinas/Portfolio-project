@@ -9,7 +9,6 @@ const HomePage = () => {
       <h3 className='text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
         Computer Engineer
       </h3>
-      {/* <img src='/v.png' alt='logo' className='' /> */}
       <h2 className='text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
         Hello{" "}
         <span className='animate-pulse text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl'>
@@ -17,7 +16,7 @@ const HomePage = () => {
         </span>
         , welcome to my Portfolio
       </h2>
-      <div class='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-32 sm:w-28'>
+      <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-32 sm:w-28'>
         <a
           href='https://www.linkedin.com/in/vaggelis-ntinas-62bb92227/'
           target='_blank'

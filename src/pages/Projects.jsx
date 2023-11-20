@@ -11,7 +11,6 @@ const Projects = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {projectData.map((project, index) => (
             <div key={index}>
-              {/* m-4 h-max bg-transparent rounded-lg object-fill */}
               <ProjectCards
                 image={project.image}
                 title={project.title}
